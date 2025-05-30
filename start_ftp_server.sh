@@ -11,7 +11,7 @@ mkdir -p "$FTP_DIR"
 
 # === Vérifie si busybox est installé Uniquement sur termux ===
 if ! command -v busybox &>/dev/null; then
-    echo "❌ busybox non installé. Veux-tu l'installer ?"
+    echo " busybox non installé. Veux-tu l'installer ?"
     exit 1
 fi
 
